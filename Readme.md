@@ -54,7 +54,7 @@ Final Report
 ### Component Responsibilities
 
 #### Collector Agent
-Fetches company news and market signals (implemented using local dummy data to avoid external API dependencies).
+Fetches company news and market data (implemented using local dummy data to avoid API dependencies).
 
 #### Analyst Agent
 Generates:
@@ -124,7 +124,7 @@ agentic-ai-system/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Create virtual environment
 
@@ -151,10 +151,11 @@ Example Request
   "company": "Tesla"
 }
 
-▶ CLI Execution
+ CLI Execution
+
 python run.py
 
-📓 Notebook Demo
+Notebook Demo
 
 Open:
 

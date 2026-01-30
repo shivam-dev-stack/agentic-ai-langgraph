@@ -1,7 +1,5 @@
 from datetime import datetime
 
-
-
 """
 Analyst Agent
 
@@ -31,7 +29,7 @@ def analyst(state):
     raw_data = state["raw_data"]
 
     analysis = f"""
-📊 Company Intelligence Report
+Company Intelligence Report
 
 SUMMARY:
 {raw_data}
