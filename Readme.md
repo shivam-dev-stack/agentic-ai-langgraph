@@ -6,7 +6,7 @@ The system exposes the workflow via a **FastAPI REST API** and includes a reprod
 
 ---
 
-## 🚀 Features
+## Features
 
 - Multi-agent architecture (Collector + Analyst)
 - LangGraph orchestration
@@ -18,7 +18,7 @@ The system exposes the workflow via a **FastAPI REST API** and includes a reprod
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ### System Overview
 
@@ -32,7 +32,7 @@ The system consists of:
 ---
 
 ### Agent Workflow
-
+`
 User / API Request
 |
 v
@@ -47,7 +47,7 @@ v
 |
 v
 Final Report
-
+`
 
 ---
 
@@ -71,7 +71,7 @@ Provides `/analyze` endpoint to trigger the workflow.
 
 ---
 
-### State Management
+###  State Management
 
 LangGraph uses a typed shared state:
 
@@ -96,7 +96,7 @@ analysis
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 agentic-ai-system/
 │
@@ -162,16 +162,6 @@ notebooks/demo.ipynb
 
 
 Run cells to see agent workflow in action.
-
-🧪 Evaluation
-
-Outputs are evaluated manually based on:
-
-Context relevance
-
-Logical consistency
-
-Structured reasoning
 
 ---
 
