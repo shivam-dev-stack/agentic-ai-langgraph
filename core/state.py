@@ -9,12 +9,12 @@ from typing import TypedDict
 
 class AgentState(TypedDict):
     """
-    AgentState maintains context between agents.
+    AgentState maintains agents.
 
     Fields:
-        company: User-provided company name
+        company: company name
         raw_data: Collected company information
-        analysis: Final analytical output
+        analysis: Final output
     """
 
     company: str

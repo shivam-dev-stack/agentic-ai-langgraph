@@ -1,9 +1,6 @@
-"""
-LangGraph Orchestrator
 
-Defines the multi-agent workflow:
-Collector Agent -> Analyst Agent
-"""
+# LangGraph Orchestrator
+
 
 from langgraph.graph import StateGraph
 from core.state import AgentState
@@ -12,9 +9,9 @@ from agents.analyst import analyst
 
 
 def build_graph():
-    """
-    Builds and compiles the LangGraph workflow.
-    """
+    
+    # Builds and compiles the LangGraph workflow.
+    
 
     graph = StateGraph(AgentState)
 

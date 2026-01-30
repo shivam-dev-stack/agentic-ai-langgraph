@@ -1,8 +1,4 @@
-"""
-FastAPI Server
 
-Exposes LangGraph agent system as REST API.
-"""
 
 from fastapi import FastAPI
 from pydantic import BaseModel
@@ -10,7 +6,7 @@ from core.graph import build_graph
 
 app = FastAPI(title="Agentic AI System")
 
-# Build LangGraph app once at startup
+
 agent_app = build_graph()
 
 
