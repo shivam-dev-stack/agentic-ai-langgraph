@@ -1,10 +1,5 @@
 # Agentic AI System – Multi-Agent Workflow using LangGraph
 
-This project demonstrates a **production-style multi-agent AI system** built with **LangGraph** where multiple agents collaborate through shared state to generate company intelligence reports.
-
-The system exposes the workflow via a **FastAPI REST API** and includes a reproducible Jupyter notebook demo.
-
----
 
 ## Features
 
