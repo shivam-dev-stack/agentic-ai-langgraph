@@ -1,0 +1,8 @@
+langchain
+langgraph
+fastapi
+uvicorn
+python-dotenv
+requests
+notebook
+ipykernel
