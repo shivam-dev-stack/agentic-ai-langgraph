@@ -32,7 +32,7 @@ The system consists of:
 ---
 
 ### Agent Workflow
-`
+```bash
 User / API Request
 |
 v
@@ -47,7 +47,7 @@ v
 |
 v
 Final Report
-`
+```
 
 ---
 
@@ -97,7 +97,7 @@ analysis
 ---
 
 ##  Project Structure
-
+```bash
 agentic-ai-system/
 │
 ├── agents/
@@ -120,7 +120,7 @@ agentic-ai-system/
 ├── requirements.txt
 ├── run.py
 └── README.md
-
+```
 
 ---
 
