@@ -15,15 +15,14 @@ def build_graph():
 
     graph = StateGraph(AgentState)
 
-    # Register agents as nodes
+    # nodes
     graph.add_node("collector", collector)
     graph.add_node("analyst", analyst)
 
-    # Define flow
+    # flow
     graph.set_entry_point("collector")
     graph.add_edge("collector", "analyst")
 
-    # Compile graph
     app = graph.compile()
 
     return app

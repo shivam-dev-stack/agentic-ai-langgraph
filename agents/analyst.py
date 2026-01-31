@@ -9,7 +9,6 @@ Analyze collected company data and generate:
 - Risks
 - Opportunities
 
-LLM responses are mocked for reproducibility.
 """
 
 def analyst(state):

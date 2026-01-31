@@ -5,7 +5,6 @@ Responsibility:
 Fetch company-related data (news + stock performance).
 
 In this implementation, external APIs are mocked using local dummy data
-to ensure reproducibility without API keys.
 """
 
 from data.dummy_data import get_company_data

@@ -1,3 +1,7 @@
+'''
+FastAPI server to experiment with the multi-agent system.
+'''
+
 
 
 from fastapi import FastAPI
